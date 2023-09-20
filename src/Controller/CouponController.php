@@ -10,20 +10,5 @@ use Symfony\Component\HttpFoundation\Request;
 
 class CouponController extends AbstractController
 {
-    public function index()
-    {
-    }
-    public function store(Request $storeTaxRequest)
-    {
-    }
 
-    public function show(Coupon $Coupon)
-    {
-    }
-    public function update(Request $updateTaxRequest, $Tax)
-    {
-    }
-    public function destroy($Tax)
-    {
-    }
 }

@@ -13,26 +13,10 @@ class CountrytaxController extends AbstractController
     {
         $this->countryTaxRepo = $repository;
     }
-    public function index()
-    {
-    }
 
     public function getByCode($CountryTaxCode)
     {
         $countrytax = $this->countryTaxRepo->findOneBy(['code'=>$CountryTaxCode]);
         return $countrytax;
-    }
-    public function store(Request $storeCountrytaxRequest)
-    {
-    }
-
-    public function show(Countrytax $Countrytax)
-    {
-    }
-    public function update(Request $updateCountrytaxRequest, $Countrytax)
-    {
-    }
-    public function destroy($Countrytax)
-    {
     }
 }
